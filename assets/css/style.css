@@ -221,15 +221,19 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #111;
+  color: purple;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
 }
+.navbar-toggler{
+  color: purple;
+  
+}
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: purple;
 }
 
 @media (max-width: 991px) {
@@ -265,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(226, 219, 219);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -483,7 +487,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #1bbd36;
+  background: purple;
   bottom: 0;
   left: calc(50% - 25px);
 }
