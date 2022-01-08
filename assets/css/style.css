@@ -673,7 +673,7 @@ section {
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #1bbd36;
+  background: purple;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -758,10 +758,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1bbd36;
+  border: 1px solid purple;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bbd36;
+  background-color: purple;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1221,11 +1221,11 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #1bbd36;
+  color: purple;
   float: left;
   width: 44px;
   height: 44px;
-  border: 1px solid #1bbd36;
+  border: 1px solid purple;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1246,7 +1246,7 @@ section {
   color: #444444;
 }
 .contact .info:hover i {
-  background: #1bbd36;
+  background: purple;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1272,7 +1272,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: purple;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1290,7 +1290,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid purple;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1302,7 +1302,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #1bbd36;
+  border-color: purple;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1311,7 +1311,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #1bbd36;
+  background: purple;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1319,7 +1319,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #2ae149;
+  background: purple;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1625,7 +1625,7 @@ section {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #1bbd36;
+  background: purple;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
@@ -1668,7 +1668,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #1bbd36;
+  background: purple;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
