@@ -851,7 +851,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #1bbd36;
+  color: purple;
 }
 .about-us .content p:last-child {
   margin-bottom: 0;
@@ -888,7 +888,7 @@ section {
 }
 .team .member .social a {
   transition: color 0.3s;
-  color: #111;
+  color: purple;
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -898,7 +898,7 @@ section {
   line-height: 0;
 }
 .team .member .social a:hover {
-  color: #1bbd36;
+  color: black;
 }
 .team .member .social i {
   font-size: 18px;
@@ -1909,4 +1909,13 @@ section {
         height: 600px;
         z-index: 1;
     }
+}
+
+.teamedit {
+  transition: all 0.3s ease-in-out;
+  filter: grayscale(100%);
+}
+.teamedit:hover {
+  filter: none;
+  transform: scale(1.1);
 }
