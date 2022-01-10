@@ -712,7 +712,7 @@ section {
   color: #2b2b2b;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #1bbd36;
+  color: purple;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
@@ -734,11 +734,15 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #57e76f;
+  color: purple;
 }
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
+}
+
+.portfolio-container{
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1144,7 +1148,7 @@ section {
   transition: 0.3s;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #1bbd36;
+  color: purple;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1903,8 +1907,8 @@ section {
 
 /* join form */
 .iframe-form{
-  width: 600px; 
-  height: 600px; 
+  width: 700px; 
+  height: 650px; 
   z-index: 1;
 }
 
