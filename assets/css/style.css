@@ -528,6 +528,10 @@ section {
   font-weight: 300;
   color: #fff;
 }
+@media (min-width: 768px)
+{
+  .breadcrumbs
+}
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
