@@ -528,10 +528,7 @@ section {
   font-weight: 300;
   color: #fff;
 }
-@media (min-width: 768px)
-{
-  .breadcrumbs
-}
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -857,6 +854,14 @@ section {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
+}
+@media (max-width: 1024px){
+  .about-us .content h3{
+    text-align: center;
+  }
+  section{
+    padding: 20px;
+  }
 }
 .about-us .content ul {
   list-style: none;
@@ -1656,6 +1661,12 @@ section {
   margin: 0 0 60px 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 1024px)
+{
+  .blog .sidebar{
+    margin: 0 0 5px 5px;
+  }
+}
 .blog .sidebar .sidebar-title {
   font-size: 20px;
   font-weight: 700;
@@ -1935,6 +1946,17 @@ section {
         height: 600px;
         z-index: 1;
     }
+}
+@media (max-width: 1024px)
+{
+  .breadcrumbs{
+    text-align: center;
+  }
+
+  .breadcrumbs h2{
+    font-size: 20px;
+    margin-top: 18px;
+  }
 }
 
 .teamedit {
