@@ -2014,3 +2014,26 @@ section {
   color: purple;
   text-decoration: none;
 }
+
+/* read more button */
+
+#more3 {
+  display: none;
+}
+#myBtn3 {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  color: white;
+  border: purple;
+  background: purple;
+  border-radius: 5px;
+}
+#myBtn3:hover {
+  background: white;
+  color: purple;
+  text-decoration: none;
+}
