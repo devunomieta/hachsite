@@ -831,7 +831,7 @@ section {
   height: 120px;
 }
 .clients .client-logo img {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   height: 42px;
   filter: grayscale(100%);
 }
@@ -1376,15 +1376,15 @@ section {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .entry .entry-img {
-  max-height: 440px;
+  max-height: 300px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
 .blog .entry .entry-title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 .blog .entry .entry-title a {
   color: #111;
@@ -1966,4 +1966,51 @@ section {
 .teamedit:hover {
   filter: none;
   transform: scale(1.1);
+}
+
+/* read more button */
+
+#more {
+  display: none;
+}
+#myBtn {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  color: white;
+  border: purple;
+  background: purple;
+  border-radius: 5px;
+}
+#myBtn:hover {
+  background: white;
+  color: purple;
+  text-decoration: none;
+}
+
+
+/* read more button */
+
+#more2 {
+  display: none;
+}
+#myBtn2 {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  color: white;
+  border: purple;
+  background: purple;
+  border-radius: 5px;
+}
+#myBtn2:hover {
+  background: white;
+  color: purple;
+  text-decoration: none;
 }
