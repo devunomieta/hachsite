@@ -562,6 +562,9 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  .breadcrumbs h2 {
+    font-weight: 500;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2037,3 +2040,75 @@ section {
   color: purple;
   text-decoration: none;
 }
+
+@media (max-width: 500px){
+.internship_img{
+  display: none;
+  }
+  .internship_btn{
+    text-align: center;
+  }
+}
+
+.internship_btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid purple;
+    background: purple;
+  }
+  .internship_btn a{
+    color: white;
+  }
+
+  .internship_btn:hover {
+    text-decoration: none;
+    background: white;
+  }
+  .internship_btn a:hover{
+    color: purple;
+  }
+
+  @media (max-width: 500px){
+      .internship_btn2{
+        text-align: center;
+      }
+    }
+    
+    .internship_btn2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 12px 32px;
+        border-radius: 4px;
+        transition: 0.5s;
+        line-height: 1;
+        margin: 10px;
+        -webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+        border: 2px solid purple;
+        background: purple;
+        color: white;
+      }
+      .internship_btn2 a{
+        color: white;
+      }
+    
+      .internship_btn2:hover {
+        text-decoration: none;
+        background: white;
+      }
+      .internship_btn2 a:hover{
+        color: purple;
+      }
