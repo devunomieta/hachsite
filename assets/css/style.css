@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #4d4643;
+  color: #000;
 }
 
 a {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid #c4c4c4;
 }
 .header-social-links a {
-  color: #a0a0a0;
+  color: #411472;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .header-social-links a:hover {
-  color: #411472;
+  color: purple;
 }
 @media (max-width: 768px) {
   .header-social-links {
@@ -528,6 +528,19 @@ section {
   font-size: 26px;
   font-weight: 300;
   color: #fff;
+  margin: 0px;
+}
+
+.team-fluid{
+  width: 400px !important;
+  height: 450px !important;
+  object-fit: cover !important;
+}
+
+.portfolio-fluid{
+  width: 100% !important;
+  height: 450px !important;
+  object-fit: cover !important;
 }
 
 .breadcrumbs ol {
@@ -847,8 +860,14 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+  .hachstacks-mobile{
+    display: none;
+  }
+}
+
 .main{
-  margin: 0px 30px 0px 30px;  
+  margin: 0px 25px 0px 25px;  
 }
 
 .about-us .content h2 {
