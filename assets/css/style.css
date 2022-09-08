@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  color: #4d4643;
 }
 
 a {
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: purple;
+  background: #411472;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: purple;
+  background: #411472;
   color: #fff;
 }
 .back-to-top.active {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid #c4c4c4;
 }
 .header-social-links a {
-  color: #411472;
+  color: #a0a0a0;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
@@ -374,8 +374,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 800;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -383,10 +383,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #411472;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #411472;
+  border: 2px solid #fff;
+  background-color: #fff;
 }
 #hero .btn-get-started:hover {
   background: #411472;
@@ -484,25 +485,6 @@ section {
   overflow: hidden;
 }
 
-.why-hach-align{
-  text-align: justify !important;
-  margin: 0px 35px 5px 35px;
-}
-
-.home-about{
-  margin: 0px 25px 0px 25px;
-}
-
-@media (min-width: 600px) {
-  .home-section-gap{
-    margin-top: 30px;
-  }
-}
-
-.home-section-gap{
-  margin-top: -60px;
-}
-
 .section-bg {
   background-color: #f7f7f7;
 }
@@ -519,18 +501,7 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
-
-.section-title-home{
-  font-size: 32px !important;
-  font-weight: bold !important;
-  text-transform: uppercase !important;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.section-title h2::after,
-.section-title-home::after {
+.section-title h2::after {
   content: "";
   position: absolute;
   display: block;
@@ -888,31 +859,14 @@ section {
   line-height: 32px;
   font-size: 24px;
 }
-
 @media (max-width: 1024px){
   .about-us .content h3{
     text-align: center;
   }
   section{
     padding: 20px;
-  }  
-}
-
-@media (min-width: 600px){
-  .about-us-pad-left{
-    margin-right: 35px;
   }
-  .section-title-home{
-    font-size: 32px !important;
-    font-weight: bold !important;
-    text-transform: uppercase !important;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    position: relative;
-  }
-
 }
-
 .about-us .content ul {
   list-style: none;
   padding: 0;
@@ -1843,7 +1797,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #411472;
+  background: #111;
 }
 @media (max-width: 667px)
 {
@@ -1853,13 +1807,13 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #411472;
+  background: #1e1e1e;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-contact h3 {
-  font-size: 30px;
+  font-size: 22px;
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1873,10 +1827,10 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
 }
 #footer .footer-top h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   color: #fff;
   position: relative;
@@ -1885,11 +1839,6 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
-
-.footer-link-text{
-  color: #fff;
-}
-
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
@@ -1897,7 +1846,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: purple;
+  color: #411472;
   font-size: 18px;
   line-height: 1;
 }
@@ -1910,7 +1859,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1974,7 +1923,7 @@ section {
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 12px;
+  border-radius: 4px;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -2022,6 +1971,7 @@ section {
   filter: none;
   transform: scale(1.1);
 }
+
 /* read more button */
 
 #more {
