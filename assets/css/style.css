@@ -10,16 +10,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #4d4643;
+  color: #000;
 }
 
 a {
-  color: purple;
+  color: #411472;
   text-decoration: none;
 }
 
 a:hover {
-  color: purple;
+  color: #411472;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #111;
 }
 #header .logo a span {
-  color: purple;
+  color: #411472;
 }
 #header .logo img {
   max-height: 40px;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid #c4c4c4;
 }
 .header-social-links a {
-  color: #a0a0a0;
+  color: #411472;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .header-social-links a:hover {
-  color: purple;
+  color: #411472;
 }
 @media (max-width: 768px) {
   .header-social-links {
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: purple;
+  color: #411472;
 }
 .navbar .dropdown ul {
   display: block;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-top: 2px solid purple;
+  border-top: 2px solid #411472;
 }
 .navbar .dropdown ul li {
   min-width: 200px;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: purple;
+  color: #411472;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: purple;
+  color: #411472;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -247,12 +247,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .navbar-toggler{
-  color: purple;
+  color: #411472;
   
   
 }
 .mobile-nav-toggle.bi-x {
-  color: purple;
+  color: #411472;
 }
 
 @media (max-width: 991px) {
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #111;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: purple;
+  color: #411472;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: purple;
+  color: #411472;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(4, 4, 4, 0.7);
   padding: 20px;
   color: #fff;
-  border-top: 5px solid purple;
+  border-top: 5px solid #411472;
 }
 #hero .carousel-content h2 {
   color: #fff;
@@ -386,10 +386,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid purple;
+  border: 2px solid #411472;
 }
 #hero .btn-get-started:hover {
-  background: purple;
+  background: #411472;
   color: #fff;
   text-decoration: none;
 }
@@ -448,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: purple;
+  background: #411472;
 }
 @media (min-width: 1024px) {
   #hero .carousel-content {
@@ -484,6 +484,25 @@ section {
   overflow: hidden;
 }
 
+.why-hach-align{
+  text-align: justify !important;
+  margin: 0px 35px 5px 35px;
+}
+
+.home-about{
+  margin: 0px 25px 0px 25px;
+}
+
+@media (min-width: 600px) {
+  .home-section-gap{
+    margin-top: 30px;
+  }
+}
+
+.home-section-gap{
+  margin-top: -60px;
+}
+
 .section-bg {
   background-color: #f7f7f7;
 }
@@ -500,13 +519,24 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
-.section-title h2::after {
+
+.section-title-home{
+  font-size: 32px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after,
+.section-title-home::after {
   content: "";
   position: absolute;
   display: block;
   width: 50px;
   height: 3px;
-  background: purple;
+  background: #411472;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -519,7 +549,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: purple;
+  background: #411472;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -696,7 +726,7 @@ section {
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: purple;
+  background: #411472;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -734,7 +764,7 @@ section {
   color: #2b2b2b;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: purple;
+  color: #411472;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
@@ -756,7 +786,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: purple;
+  color: #411472;
 }
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
@@ -785,10 +815,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid purple;
+  border: 1px solid #411472;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: purple;
+  background-color: #411472;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -858,14 +888,31 @@ section {
   line-height: 32px;
   font-size: 24px;
 }
+
 @media (max-width: 1024px){
   .about-us .content h3{
     text-align: center;
   }
   section{
     padding: 20px;
-  }
+  }  
 }
+
+@media (min-width: 600px){
+  .about-us-pad-left{
+    margin-right: 35px;
+  }
+  .section-title-home{
+    font-size: 32px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+}
+
 .about-us .content ul {
   list-style: none;
   padding: 0;
@@ -879,7 +926,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: purple;
+  color: #411472;
 }
 .about-us .content p:last-child {
   margin-bottom: 0;
@@ -916,7 +963,7 @@ section {
 }
 .team .member .social a {
   transition: color 0.3s;
-  color: purple;
+  color: #411472;
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -1172,7 +1219,7 @@ section {
   transition: 0.3s;
 }
 .faq .faq-list a.collapsed:hover {
-  color: purple;
+  color: #411472;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1250,11 +1297,11 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: purple;
+  color: #411472;
   float: left;
   width: 44px;
   height: 44px;
-  border: 1px solid purple;
+  border: 1px solid #411472;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1275,7 +1322,7 @@ section {
   color: #444444;
 }
 .contact .info:hover i {
-  background: purple;
+  background: #411472;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1301,7 +1348,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: purple;
+  background: #411472;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1319,7 +1366,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid purple;
+  border: 3px solid #411472;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1331,7 +1378,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: purple;
+  border-color: #411472;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1340,7 +1387,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: purple;
+  background: #411472;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1348,7 +1395,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: purple;
+  background: #411472;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1654,7 +1701,7 @@ section {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: purple;
+  background: #411472;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
@@ -1703,7 +1750,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: purple;
+  background: #411472;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1796,7 +1843,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #111;
+  background: #411472;
 }
 @media (max-width: 667px)
 {
@@ -1806,13 +1853,13 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1e1e1e;
+  background: #411472;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-contact h3 {
-  font-size: 22px;
+  font-size: 30px;
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1826,10 +1873,10 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff;
   position: relative;
@@ -1838,6 +1885,11 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
+
+.footer-link-text{
+  color: #fff;
+}
+
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
@@ -1858,7 +1910,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1900,14 +1952,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: purple;
+  background: #411472;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: purple;
+  background: #411472;
 }
 #footer .credits {
   padding-top: 5px;
@@ -1922,14 +1974,14 @@ section {
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 4px;
+  border-radius: 12px;
   text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: purple;
+  background: #411472;
   color: #fff;
   text-decoration: none;
 }
@@ -1970,7 +2022,6 @@ section {
   filter: none;
   transform: scale(1.1);
 }
-
 /* read more button */
 
 #more {
@@ -1984,13 +2035,13 @@ section {
   letter-spacing: 1px;
   transition: 0.5s;
   color: white;
-  border: purple;
-  background: purple;
+  border: #411472;
+  background: #411472;
   border-radius: 5px;
 }
 #myBtn:hover {
   background: white;
-  color: purple;
+  color: #411472;
   text-decoration: none;
 }
 
@@ -2008,13 +2059,13 @@ section {
   letter-spacing: 1px;
   transition: 0.5s;
   color: white;
-  border: purple;
-  background: purple;
+  border: #411472;
+  background: #411472;
   border-radius: 5px;
 }
 #myBtn2:hover {
   background: white;
-  color: purple;
+  color: #411472;
   text-decoration: none;
 }
 
@@ -2031,13 +2082,13 @@ section {
   letter-spacing: 1px;
   transition: 0.5s;
   color: white;
-  border: purple;
-  background: purple;
+  border: #411472;
+  background: #411472;
   border-radius: 5px;
 }
 #myBtn3:hover {
   background: white;
-  color: purple;
+  color: #411472;
   text-decoration: none;
 }
 
@@ -2063,8 +2114,8 @@ section {
     margin: 10px;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid purple;
-    background: purple;
+    border: 2px solid #411472;
+    background: #411472;
   }
   .internship_btn a{
     color: white;
@@ -2075,7 +2126,7 @@ section {
     background: white;
   }
   .internship_btn a:hover{
-    color: purple;
+    color: #411472;
   }
 
   @media (max-width: 500px){
@@ -2097,8 +2148,8 @@ section {
         margin: 10px;
         -webkit-animation-delay: 0.8s;
         animation-delay: 0.8s;
-        border: 2px solid purple;
-        background: purple;
+        border: 2px solid #411472;
+        background: #411472;
         color: white;
       }
       .internship_btn2 a{
@@ -2110,5 +2161,5 @@ section {
         background: white;
       }
       .internship_btn2 a:hover{
-        color: purple;
+        color: #411472;
       }
